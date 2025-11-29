@@ -1,0 +1,35 @@
+
+.bg-success {
+  background-color: #00aa5f !important;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.movie-card {
+  padding: 20px !important;
+  border: 1px solid #333;
+}
+
+.review-item {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+#stars span {
+  font-size: 32px;
+  cursor: pointer;
+  color: #555;            
+  transition: color 0.2s;
+}
+
+#stars span.hovered {
+  color: #ffd700 !important;  
+}
+
+#stars span.selected {
+  color: #ffd700 !important;  
+}
